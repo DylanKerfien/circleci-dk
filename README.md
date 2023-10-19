@@ -8,3 +8,5 @@ jobs:
     steps:
       -checkout
       run: echo "A first hello"
+
+ssh-keygen -t ed25519 -f ~/.ssh/project_key -C dvk1@students.uwf.edu
